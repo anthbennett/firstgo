@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  resources :item_types
+
+  resources :items
+
+  resources :income_summaries
+
+  resources :worksheets
+
+  resources :entities
+
+  resources :clients
+
+  resources :user_profiles
+
   # get 'home/index'
 
   devise_for :users

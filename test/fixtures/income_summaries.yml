@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  trust: 9.99
+  individual: 9.99
+  company: 9.99
+
+two:
+  trust: 9.99
+  individual: 9.99
+  company: 9.99

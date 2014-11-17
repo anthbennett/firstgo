@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Trust:</strong>
+  <%= @income_summary.trust %>
+</p>
+
+<p>
+  <strong>Individual:</strong>
+  <%= @income_summary.individual %>
+</p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @income_summary.company %>
+</p>
+
+<%= link_to 'Edit', edit_income_summary_path(@income_summary) %> |
+<%= link_to 'Back', income_summaries_path %>
